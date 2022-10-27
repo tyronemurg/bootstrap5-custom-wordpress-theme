@@ -1,0 +1,30 @@
+/*
+Theme Name: Ty Web Warrior
+Theme URI: https://webwarrior.co.za
+Author: Tyrone Murgatroyd
+Author URI:https://webwarrior.co.za
+Description: Dynamic Bootstrap 5 Wordpress Custom Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
+Text Domain: web-warrior
+Tags: custom-theme
+*/
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+.green{
+	background:green;
+}
+.purple{
+	background: purple;
+}
+
+.woof_btn_default{
+    display:none!important;
+}
