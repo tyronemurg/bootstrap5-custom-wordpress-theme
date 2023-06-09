@@ -17,8 +17,6 @@ add_theme_support( 'post-thumbnails' );
 
 function theme_enqueue_scripts() {
         wp_enqueue_style( 'Bootstrap_4_css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css' );
-        // wp_enqueue_script( 'Jquery', 'https://code.jquery.com/jquery-3.3.1.slim.min.js');
-        // wp_enqueue_script( 'https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js');
         wp_enqueue_script( 'Bootstrap_5_JS', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js');
         wp_enqueue_style( 'Style', get_template_directory_uri() . '/style.css' );
 
